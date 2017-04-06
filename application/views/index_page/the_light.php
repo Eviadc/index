@@ -6,6 +6,21 @@
         <img class="bar-fill" src="<?php echo base_url('assets/image/photo/The_Light_web.jpg')?>">
     </div>
 </div>
+<div class="wrapper bar-fill text-middle" id="nav-bar">
+    <ul class="middle">
+        &nbsp;
+        <li>
+            <a>
+                menu
+            </a>
+        </li>
+        <li>
+            <a>
+                kamigaku
+            </a>
+        </li>
+    </ul>
+</div>
 <script>
     $(function(){
         function paint()
@@ -15,9 +30,9 @@
             var window_width = document.body.clientWidth;
             var window_height = document.body.clientHeight;
             var left_px = 0.2 * 2048 + 2;
-            var width_px = 0.6 * 2048 - 2;
+            var width_px = 0.6 * 2048 - 4;
             var top_px = 0.05 * 2048;
-            var height_px = 0.4 / window_height * window_width * 2048;
+            var height_px = 0.4  * window_width / window_height * 2048;
 
 //            console.debug(left_px + '::' + width_px + '::' + top_px + '::' + height_px);
 

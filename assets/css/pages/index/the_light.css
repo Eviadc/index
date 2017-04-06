@@ -1,0 +1,22 @@
+ul{
+    font: 1rem verdana arial sans-serif;
+    color: white;
+    padding-left: 38rem;
+}
+
+ul, li{
+    list-style: none;
+}
+
+li{
+    float: left;
+    border-right: 1px white solid;
+}
+
+ul :last-child{
+    border-right: none;
+}
+
+li>a{
+    padding: 0 3rem;
+}

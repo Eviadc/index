@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>阿姨来了</title>
-	<meta name="Keywords" content="阿姨来了">
-	<meta name="Description" content="阿姨来了">
+	<title>Index</title>
+	<meta name="Keywords" content="Eviadc Nathan+Wang">
+	<meta name="Description" content="Eviadc">
 
 	<!-- 移动设备支持 -->
 	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
@@ -17,8 +17,14 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<link href="<?php echo base_url('assets/css/eviadc_misc.css')?>" rel="stylesheet" type="text/css">
+    <link href="<?php if(isset($css)) echo base_url('assets/css/pages/index/'.$css.'.css')?>" rel="stylesheet" type="text/css">
 	<script src="<?php echo base_url('assets/js/jquery-1.10.2.min.js')?>"></script>
 	<script src="<?php echo base_url('assets/js/jquery-ui.js')?>"></script>
 	<script src="<?php echo base_url('assets/js/misc.js')?>"></script>
+    <style>
+        body::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
 </head>
-<body style="overflow-y: visible">
+<body style="background: black">

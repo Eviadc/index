@@ -11,7 +11,11 @@ class MainController extends CI_Controller
 
 	public function index()
 	{
-		$this->load->view('index_page/header');
+		$data['title'] = 'index';
+		$data['css'] = 'the_light';
+		$data['variation'] = 0;
+
+		$this->load->view('index_page/header', $data);
 		$this->load->view('index_page/the_light');
 		$this->load->view('index_page/footer');
 	}
