@@ -1,5 +1,9 @@
 
-*{margin: 0;outline: 0;padding: 0;border-width: 0;box-sizing: border-box;position: relative;vertical-align: middle; }
+*{
+    margin: 0;outline: 0;padding: 0;border-width: 0;box-sizing: border-box;position: relative;vertical-align: middle;
+    user-focus: none; -webkit-user-drag: none;
+    user-select: none; -webkit-user-select: none;
+}
 html{text-align: left;}
 table{table-layout: fixed;}
 html,body{height: 100%;}
@@ -40,6 +44,8 @@ html,body{height: 100%;}
 
 .hide{ display: none;}
 .block{ display: block;}
+.relative{ position: relative;}
+.absolute{ position: absolute;}
 
 .pull-left{ float: left;}
 .pull-right{ float: right;}
