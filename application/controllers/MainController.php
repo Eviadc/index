@@ -12,7 +12,7 @@ class MainController extends CI_Controller
 	public function index()
 	{
 		$this->load->view('index_page/header');
-		$this->load->view('index_page/page_tree_1');
+		$this->load->view('index_page/the_light');
 		$this->load->view('index_page/footer');
 	}
 }
