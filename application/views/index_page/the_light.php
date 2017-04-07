@@ -6,20 +6,21 @@
         <img class="bar-fill" src="<?php echo base_url('assets/image/photo/The_Light_web.jpg')?>">
     </div>
 </div>
-<div class="wrapper bar-fill text-middle" id="nav-bar">
-    <ul class="middle">
-        &nbsp;
-        <li>
-            <a>
-                menu
-            </a>
-        </li>
-        <li>
-            <a>
-                kamigaku
-            </a>
-        </li>
-    </ul>
+<div class="wrapper bar-fill" id="nav-bar">
+    <div class="text-middle nav-bar">
+        <a href="<?php echo base_url()?>">
+            HOME
+        </a>
+        <a href="<?php echo base_url('kamigaku/')?>">
+            KAMIGAKU
+        </a>
+        <a href="<?php echo base_url('wx/')?>">
+            WECHAT
+        </a>
+        <a href="<?php echo base_url()?>">
+            ABOUT
+        </a>
+    </div>
 </div>
 <script>
     $(function(){

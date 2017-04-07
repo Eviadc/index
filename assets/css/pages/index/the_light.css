@@ -1,22 +1,17 @@
-ul{
-    font: 1rem verdana arial sans-serif;
+.nav-bar>a{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 2px;
+    -webkit-font-smoothing: subpixel-antialiased;
     color: white;
-    padding-left: 38rem;
+    text-decoration: none;
 }
 
-ul, li{
-    list-style: none;
-}
-
-li{
-    float: left;
+a{
+    padding: 0 3rem;
     border-right: 1px white solid;
 }
 
-ul :last-child{
+.nav-bar :last-child{
     border-right: none;
-}
-
-li>a{
-    padding: 0 3rem;
 }
