@@ -14,10 +14,9 @@ class MainController extends CI_Controller
 	{
 		$gen = $this->Index->genPageType();
 
-		echo $gen['variation'];
-
 		$data['title'] = 'index';
 		$data['css'] = $gen['type'];
+		$data['js'] = $gen['type'];
 		$data['variation'] = $gen['variation'];
 
 		$this->load->view('index_page/header', $data);

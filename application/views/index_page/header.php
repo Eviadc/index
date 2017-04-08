@@ -18,9 +18,6 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	<link href="<?php echo base_url('assets/css/eviadc_misc.css')?>" rel="stylesheet" type="text/css">
     <link href="<?php if(isset($css)) echo base_url('assets/css/pages/index/'.$css.'.css')?>" rel="stylesheet" type="text/css">
-	<script src="<?php echo base_url('assets/js/jquery-1.10.2.min.js')?>"></script>
-	<script src="<?php echo base_url('assets/js/jquery-ui.js')?>"></script>
-	<script src="<?php echo base_url('assets/js/misc.js')?>"></script>
     <style>
         body::-webkit-scrollbar{
             display: none;
