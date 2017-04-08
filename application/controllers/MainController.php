@@ -7,16 +7,21 @@ class MainController extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->helper(array('url'));
+		$this->load->model('Index');
 	}
 
 	public function index()
 	{
+		$gen = $this->Index->genPageType();
+
+		echo $gen['variation'];
+
 		$data['title'] = 'index';
-		$data['css'] = 'the_light';
-		$data['variation'] = 0;
+		$data['css'] = $gen['type'];
+		$data['variation'] = $gen['variation'];
 
 		$this->load->view('index_page/header', $data);
-		$this->load->view('index_page/the_light');
+		$this->load->view('index_page/'.$gen['type']);
 		$this->load->view('index_page/footer');
 	}
 }
