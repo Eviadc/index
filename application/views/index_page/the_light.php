@@ -14,6 +14,9 @@
         <a href="<?php echo base_url('kamigaku/')?>">
             KAMIGAKU
         </a>
+        <a href="<?php echo site_url('diaries/')?>">
+            DIARIES
+        </a>
         <a href="<?php echo base_url('wx/')?>">
             WECHAT
         </a>

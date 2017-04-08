@@ -3,8 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class ErrorHandler extends CI_Controller
 {
-	public function index($eargs)
+	public function index()
 	{
-		$this->load->view('errors/html/error_404');
+		$data['heading'] = '这个页面还没做';
+		$data['message'] = '嘛也有可能是网址输错了';
+		$this->load->view('errors/html/error_404', $data);
 	}
 }
