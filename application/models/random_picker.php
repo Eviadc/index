@@ -32,6 +32,7 @@ namespace RandomPicker
 
 		$rp->register(array('type' => 'the_light', 'variation' => 0), 9);
 		$rp->register(array('type' => 'the_light', 'variation' => 1), 1);
+		$rp->register(array('type' => 'the_wound', 'variation' => 0), 10);
 
 		return $rp->generate();
 	}
