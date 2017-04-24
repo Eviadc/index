@@ -7,7 +7,6 @@
 }
 .nav-bar>a:hover{
     text-decoration: underline;
-    text-underline-mode: 10px;
 }
 
 a{

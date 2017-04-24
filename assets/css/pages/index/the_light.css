@@ -5,6 +5,9 @@
     color: white;
     text-decoration: none;
 }
+.nav-bar>a:hover{
+    text-decoration: underline;
+}
 
 a{
     padding: 0 3rem;
